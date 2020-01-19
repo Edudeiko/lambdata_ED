@@ -9,6 +9,10 @@ twine = "*"
 [packages]
 numpy = "*"
 pandas = "*"
+seaborn = "*"
+scikit-learn = "*"
+sklearn-utils-multiclass = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.7"
