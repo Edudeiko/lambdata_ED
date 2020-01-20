@@ -4,16 +4,15 @@
 import setuptools
 
 REQUIRED = [
-    "numpy",
-    "pandas"
+    "scikit-learn"
 ]
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name="lambdata_1",
-    version="0.0.4",
+    name="lambdata_train_val_test_split",
+    version="0.0.5",
     author="Edudeiko",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
